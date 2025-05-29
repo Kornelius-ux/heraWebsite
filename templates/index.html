@@ -12,10 +12,15 @@
         <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
 
         <!--My Stylesheet -->
-        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='main.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/main.css')}}">
     </head>
     <body>
         <!-- Navigantion Bar -->
         {% include 'navbar.html' %}
+
+        <!-- About Me -->
+        {% include 'about_me.html' %}
+
+        <hr class="line">
     </body>
 </html>
