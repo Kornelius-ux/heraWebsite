@@ -14,4 +14,7 @@ def home_page():
         str: Returns a str formatted html site to render to the website
     """
     
-    return render_template('navbar.html')
+    return render_template('index.html')
+
+if __name__ == "__main__":
+    app.run()
