@@ -1,0 +1,20 @@
+/* Navbar */
+
+.navbar {
+    min-height: 100px;
+}
+
+.navbar-brand {
+    height: 70px;
+    width: 400px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.nav-item {
+    text-align: center;
+    margin: 20px;
+    height: 70px;
+    padding: 10px;
+    font-size: 20px;
+}
