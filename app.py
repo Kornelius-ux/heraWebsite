@@ -4,6 +4,14 @@ from flask import render_template
 
 app = Flask(__name__)
 
+# Routes to the home page
 @app.route("/")
-def index():
+def home_page():
+    """
+    Renders and displays the homepage
+    
+    Returns:
+        str: Returns a str formatted html site to render to the website
+    """
+    
     return render_template('navbar.html')
