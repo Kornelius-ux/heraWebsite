@@ -16,5 +16,10 @@ def home_page():
     
     return render_template('index.html')
 
+@app.route("/footer")
+def footer():
+    
+    return render_template('footer.html')
+
 if __name__ == "__main__":
     app.run(debug=True, port=5000)

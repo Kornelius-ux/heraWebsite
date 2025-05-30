@@ -15,12 +15,17 @@
         <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/main.css')}}">
     </head>
     <body>
-        <!-- Navigantion Bar -->
-        {% include 'navbar.html' %}
+        <div class="content">
+            <!-- Navigantion Bar -->
+            {% include 'navbar.html' %}
 
-        <!-- About Me -->
-        {% include 'about_me.html' %}
+            <!-- About Me -->
+            {% include 'about_me.html' %}
 
-        <hr class="line">
+            <hr class="line">
+        </div>
+        <footer>
+            {% include 'footer.html' %}
+        </footer>
     </body>
 </html>

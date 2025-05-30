@@ -1,3 +1,21 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+}
+
 /* Navbar */
 
 .navbar {
@@ -48,4 +66,45 @@
     size: 2;
     margin: auto;
     margin-top: 50px;
+}
+
+/* Footer */
+
+.footer-container {
+    background-color: #7FB069;
+    padding: 20px 0;
+    height: 200px;
+
+}
+
+.footer-contents {
+    height: 90%;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px 0;
+}
+
+.floating {
+    padding-top: 20px;
+    float: left;
+    width: 50%;
+}
+
+.email-link:link {
+  text-decoration: none;
+  color: black;
+}
+
+.email-link:visited {
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.email-link:active {
+  text-decoration: underline;
 }
