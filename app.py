@@ -16,11 +16,5 @@ def home_page():
     
     return render_template('index.html')
 
-#Just for testing
-@app.route("/about_me")
-def about_me():
-    
-   return render_template("about_me.html")
-
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
