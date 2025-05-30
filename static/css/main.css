@@ -108,3 +108,11 @@ footer {
 .email-link:active {
   text-decoration: underline;
 }
+
+.total-skills-container {
+    outline: auto;
+}
+
+.skills-context-container {
+    outline: auto;
+}
