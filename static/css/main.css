@@ -69,6 +69,14 @@ footer {
     margin-bottom: 150px;
 }
 
+.small-line {
+    width: 80%;
+    size: 2;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 /* Footer */
 
 .footer-container {
@@ -126,15 +134,26 @@ footer {
     text-align: center;
 }
 
+.about-skills {
+    padding: 40px;
+    font-size: 30px;
+}
+
+.about-skills-header {
+    font-size: 60px;
+}
+.about-skills-text {
+    margin-top: 20px;
+}
+
 .all-skills-container {
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 0;
     width: 100%;
     height: 75%;
     z-index: 2;
 }
-
 .skill {
     width: 25%;
     height: 100%;
@@ -147,3 +166,17 @@ footer {
 
 }
 
+.skill-header {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.skill-text {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 80%;
+}
